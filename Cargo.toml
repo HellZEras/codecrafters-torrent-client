@@ -1,0 +1,15 @@
+[package]
+name = "torrent"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.94"
+hex = "0.4.3"
+rand = "0.8.5"
+reqwest = "0.12.9"
+serde = { version = "1.0.216", features = ["derive"] }
+serde_bencode = "0.2.4"
+serde_urlencoded = "0.7.1"
+sha1 = "0.10.6"
+tokio = { version = "1.42.0", features = ["full"] }
